@@ -57,6 +57,7 @@ button {
   color: white;
   font-size: 1.2rem;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  transition: background-color 0.3s ease;
 }
 
 .main-hero {
@@ -143,95 +144,118 @@ ul li:before {
   object-fit: cover;
 }
 
-.itinerary{
-    padding: 10px;
-    margin: 10px;
-    border: 2px solid #ba9753;
+.itinerary {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #ba9753;
 }
 
-.itinerary h1{
-    font-size: 1.2rem;
-    padding: 10px;
-    background-color: #ba9753;
-    border-radius: 10px;
+.itinerary h2 {
+  font-size: 1.2rem;
+  padding: 10px;
+  background-color: #ba9753;
+  border-radius: 10px;
 }
 
-.itinerary p{
-    margin: 5px;
+.itinerary p {
+  margin: 5px;
 }
 
-.in-ex{
-    justify-content:space-around;
-    padding: 20px;
-    border: 2px solid #ba9753;
-    margin: 10px;
-    display: flex;
-    font-size: 1rem;
+.in-ex {
+  justify-content: space-around;
+  padding: 20px;
+  border: 2px solid #ba9753;
+  margin: 10px;
+  display: flex;
+  font-size: 1rem;
 }
 
 .destination form {
-    padding: 20px;
-    gap: 10px;
-    margin: auto;
-    display: flex;
-    background-color: white;
-    border: 5px solid #ba9753;
-    width: 80%;
-    height: auto;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    flex-wrap: wrap;
-  }
-  
-  form input,
-  select {
-    height: 60px;
-    width: 100%;
-    padding: 20px;
-    outline: none;
-    border-radius: 50px;
-    border: none;
-    color: black;
-    background-color: #ffffff;
-    font-weight: 500;
-    box-shadow: 0.5px 1px 8px 0 rgba(0, 0, 0, 0.2),
-      0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
+  padding: 20px;
+  gap: 10px;
+  margin: auto;
+  display: flex;
+  background-color: white;
+  border: 5px solid #ba9753;
+  width: 80%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  flex-wrap: wrap;
+}
 
-  .form-heading {
-    margin: 10px;
-  }
+form input,
+select {
+  height: 60px;
+  width: 100%;
+  padding: 20px;
+  outline: none;
+  border-radius: 50px;
+  border: none;
+  color: black;
+  background-color: #ffffff;
+  font-weight: 500;
+  box-shadow: 0.5px 1px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
-  .footer-flex img{
-    width: 180px;
-  }
+.form-heading {
+  margin: 10px;
+}
 
-  .footer-flex{
-    gap: 3px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.footer-flex img {
+  width: 180px;
+}
 
-  .footer-flex-rights{
-    margin: 15px;
-display: flex;
-justify-content: center;
-align-items: center
-;
-  }
+.footer-flex {
+  gap: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  footer{
-    margin-top: 20px;
-    padding: 10px;
-    overflow: hidden;
-    border-top: 2px solid #cfcaca;
-  }
+.footer-flex-rights {
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .made-with-love{
-    text-align: center;
-  }
+footer {
+  margin-top: 20px;
+  padding: 10px;
+  overflow: hidden;
+  border-top: 2px solid #cfcaca;
+}
 
+.made-with-love {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.footer-links a {
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+}
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.privacy-policy-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.privacy-policy-checkbox input {
+  width: 15px;
+  height: 15px;
+  background-color: transparent;
+  margin-right: 5px;
+}
 
 @media screen and (max-width: 400px) {
   .package-box-flex {
@@ -243,14 +267,13 @@ align-items: center
     object-fit: cover;
   }
 
-  .in-ex{
+  .in-ex {
     justify-content: center;
     padding: 10px;
     border: 2px solid #ba9753;
     margin: 10px;
     display: flex;
-}
-
+  }
 
   .package-box img {
     align-items: center;
@@ -302,6 +325,7 @@ align-items: center
     color: white;
     font-size: 1rem;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    transition: #bababa 0.3s ease;
   }
 
   .main-hero {
@@ -345,7 +369,7 @@ align-items: center
 .hero {
   height: 100vh;
   width: 100%;
-  background-image: url("assest/kumbhboat.webp");
+  background-image: url("assest/aircraft.jpg");
   background-position: center;
   background-size: cover;
 }

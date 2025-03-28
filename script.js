@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
     const dateInput = document.getElementById("tour-date");
     const today = new Date();
-    const minDate = new Date("2025-02-16"); // Booking opens from Feb 16
-    const maxDate = new Date("2025-02-25"); // Booking closes on Feb 25
+    const minDate = new Date("2025-03-02"); // Booking opens from Feb 16
+    const maxDate = new Date("2025-03-02"); // Booking closes on Feb 25
     
     // Format date as YYYY-MM-DD
     const formatDate = (date) => {
