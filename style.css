@@ -157,6 +157,13 @@ ul li:before {
   border-radius: 10px;
 }
 
+.privacy h2{
+  font-size: 1.2rem;
+  padding: 10px;
+  background-color: #ba9753;
+  border-radius: 10px;
+}
+
 .itinerary p {
   margin: 5px;
 }
