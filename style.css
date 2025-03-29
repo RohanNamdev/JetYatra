@@ -280,6 +280,10 @@ footer {
     flex-direction: column;
   }
 
+  .footer-links a {
+    font-size: 0.5rem;
+  }
+
   .images img {
     width: 40%;
     object-fit: cover;
