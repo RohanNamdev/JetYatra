@@ -251,11 +251,15 @@ footer {
   color: #000;
   text-decoration: none;
   text-align: center;
+  font-size: 0.8rem;
 }
+
 .footer-links {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .privacy-policy-checkbox {
